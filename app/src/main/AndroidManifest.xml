@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.demo.hazem_food">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hazem_food">
+        <activity
+            android:name=".Cans"
+            android:exported="false"
+            android:label="Drinks"
+            />
+        <activity
+            android:name=".Appetizers"
+            android:exported="false"
+            android:label="Appetizers"
+            />
+        <activity
+            android:name=".soups"
+            android:exported="false"
+            android:label="Soups"
+
+            />
+        <activity
+            android:name=".Salads"
+            android:exported="false"
+            android:label="Salads"
+
+            />
+        <activity
+            android:name=".circular"
+            android:exported="false"
+            android:label="Loding....."
+
+
+            />
+        <activity
+            android:name=".BBQ"
+            android:exported="false"
+            android:label="BBQ"
+
+            />
+        <activity
+            android:name=".admin_login"
+            android:colorMode="wideColorGamut"
+            android:exported="false"
+            android:label="@string/admin" />
+        <activity
+            android:name=".pop"
+            android:exported="false"
+            android:label="pop"
+            />
+        <activity
+            android:name=".order_to_fastdriver"
+            android:exported="false"
+            android:label="Order to fastdriver"
+            />
+        <activity
+            android:name=".name_address_in_firebase"
+            android:exported="false" />
+        <activity
+            android:name=".faster_man_admin_"
+            android:exported="false" />
+        <activity
+            android:name=".help"
+            android:exported="false"
+            android:label="Help"
+
+            />
+        <activity
+            android:name=".Pizza"
+            android:exported="false"
+            android:label="Pizza"
+
+            />
+        <activity
+            android:name=".Activity_Enter"
+            android:exported="false"
+            android:label="Items"
+
+            />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Food Order"
+
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

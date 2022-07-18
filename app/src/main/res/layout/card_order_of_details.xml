@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/startguideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="26dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/endguidline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="168dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rood_cardview"
+        android:layout_width="142dp"
+        android:layout_height="239dp"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="40dp"
+
+        app:layout_constraintEnd_toEndOf="@id/endguidline"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/startguideline"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constrain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:cropToPadding="true"
+                android:elevation="200dp"
+                android:adjustViewBounds="true"
+                app:layout_constraintEnd_toEndOf="@+id/constrain"
+                app:layout_constraintStart_toStartOf="@+id/constrain"
+                tools:srcCompat="@tools:sample/avatars"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="50dp"
+                android:layout_height="16dp"
+                android:text="Cost:-"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/numitem"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/name_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:gravity="center_horizontal"
+                android:text="Text"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image"
+
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="50dp"
+                android:layout_height="16dp"
+
+                android:text="number"
+
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/num"
+              />
+
+            <TextView
+                android:id="@+id/numitem"
+
+                android:layout_width="74dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:textColor="#9A000000"
+                app:layout_constraintEnd_toEndOf="@+id/name_item"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/name_item"
+                app:layout_constraintTop_toBottomOf="@+id/name_item"
+                tools:text="nuofitem" />
+
+            <TextView
+                android:id="@+id/num"
+
+                android:layout_width="74dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:textColor="#99000000"
+                app:layout_constraintEnd_toEndOf="@+id/name_item"
+                app:layout_constraintTop_toBottomOf="@+id/numitem"
+                tools:text="nuofitem" />
+
+            <TextView
+                android:id="@+id/total_cost"
+
+                android:layout_width="74dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:textColor="#99000000"
+                app:layout_constraintEnd_toEndOf="@+id/name_item"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/textView6"
+                app:layout_constraintStart_toStartOf="@+id/name_item"
+                app:layout_constraintTop_toBottomOf="@+id/num"
+                tools:text="nuofitem" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="50dp"
+                android:layout_height="16dp"
+                android:text="Total "
+                android:textColor="#000000"
+                android:textStyle="bold"
+
+                app:layout_constraintBottom_toBottomOf="@+id/total_cost"
+     />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

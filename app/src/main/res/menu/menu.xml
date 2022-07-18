@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:titleCondensed="aa"
+
+        android:id="@+id/help"
+        android:title="help"
+        />
+
+
+    <item android:id="@+id/fast"
+        android:icon="@drawable/fastfood"
+        android:title="food"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/fastdriver"
+        android:icon="@drawable/deliveryman"
+        android:title="deliveryman"
+        app:showAsAction="always"/>
+    <item android:id="@+id/Admin"
+        android:title="Admin"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/exite"
+        android:icon="@drawable/exite"
+        android:title="Exite"
+        app:showAsAction="never"
+/>
+
+</menu>

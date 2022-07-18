@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="50dp"
+
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="50dp"
+    android:paddingLeft="50dp"
+    android:paddingTop="150dp"
+    android:paddingRight="50dp"
+    tools:context=".admin_login">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/name_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/name_login" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/name_login"
+        android:layout_width="150dp"
+        android:layout_height="51dp"
+        android:fadingEdge="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/pass_login"
+        app:layout_constraintStart_toStartOf="@+id/pass_login">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:backgroundTint="#00ED5F"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/name_loginn"
+                android:layout_width="142dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="#00ED5F"
+                android:gravity="center_horizontal"
+
+
+                android:hint="Enter your Email"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textViewww"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="@id/pass_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintTop_toTopOf="@id/pass_login" />
+
+    <EditText
+        android:id="@+id/pass_login"
+        android:layout_width="188dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#00ED5F"
+        android:gravity="center"
+        android:hint="Enter your Pass"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/textViewww"
+        app:layout_constraintTop_toBottomOf="@id/name_login" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:onClick="enter"
+        android:text="├Logín┤"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pass_login" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="314dp" />
+
+    <View
+        android:id="@+id/view3"
+
+        android:layout_width="264dp"
+        android:layout_height="356dp"
+        android:alpha=".7"
+        android:foreground="@drawable/icon_to_the_enter"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.681" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

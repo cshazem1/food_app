@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/drawable-v24/button.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/drawable-v24/circle.xml" value="0.22205128205128205" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/drawable-v24/ic_arroww.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/drawable/circular_progress_bar.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/drawable/circular_shape.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_admain_login.xml" value="0.22" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_admin_login.xml" value="0.2" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_appetizers.xml" value="0.1" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_bbq.xml" value="0.209375" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_cans.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_circular.xml" value="0.1" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_enter.xml" value="0.15" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_enter_circular.xml" value="0.18" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_enter_circular2.xml" value="0.209375" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_faster_man_admin.xml" value="0.12" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_fish.xml" value="0.1" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_help.xml" value="0.12" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_meat.xml" value="0.209375" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_name_address_in_firebase.xml" value="0.2" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_order_to_fastdriver.xml" value="0.2" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_pizza.xml" value="0.1" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_pop.xml" value="0.22" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_pop_circule.xml" value="0.1" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_salads.xml" value="0.1" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_soup.xml" value="0.1" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/activity_soups.xml" value="0.209375" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/card_department.xml" value="0.25" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/card_details.xml" value="0.25" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/card_details2.xml" value="0.25" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/card_order_of_details.xml" value="0.209375" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/card_part.xml" value="0.75" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/cardview_fast_driver.xml" value="0.33" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/cardview_fast_driver2.xml" value="0.25" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/content_activity_enter_circular.xml" value="0.209375" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/fragment_first.xml" value="0.209375" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/fragment_second.xml" value="0.1" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/gridview_order.xml" value="0.5" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/gridview_part.xml" value="0.22" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/istrowofdepartment.xml" value="0.22" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/layoutinflater.xml" value="0.209375" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/layout/pop_circular_shape.xml" value="0.1" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/menu/menu.xml" value="0.22" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/AQ/AndroidStudioProjects/hazem_food/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22552083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
